@@ -73,7 +73,6 @@ This document partially covers functional, negative, session, and security-focus
 **Preconditions:**  
 - Admin account exists  
 - Operator account exists  
-
 **Steps:**
 1. Navigate to `/auth`.
 2. Enter **Operator username/email**.
