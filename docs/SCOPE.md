@@ -99,3 +99,25 @@ All confirmed issues are documented as formal bug reports in the `/bugs` directo
 - Port `5481` is not used / not stable
 - Tests are executed locally using **Playwright (JavaScript)**
 - Environment configuration is managed via `.env` files (with sensitive values excluded from version control)
+
+-------
+
+## Improvements & Future Enhancements
+
+The current implementation focuses on a selected set of critical scenarios to demonstrate structure, depth, and quality of approach within the given timeframe.
+
+With additional time, the following areas would be addressed:
+
+### Testability
+- Introduction of stable selectors (e.g. `data-testid`) for key UI elements to reduce flakiness and long-term maintenance cost.
+- More consistent use of role-based and accessibility-friendly locators across the UI.
+
+### Coverage Expansion
+- Broader authentication and session-related scenarios, including token expiration and edge-case session handling.
+- Deeper RBAC validation at both UI and API levels, ensuring forbidden actions are explicitly blocked (e.g. proper `403` responses).
+- Additional negative and security-oriented cases, including extended XSS and boundary-input scenarios.
+
+### Framework Refinement
+- Refactoring shared flows into reusable fixtures and helpers to reduce duplication.
+- Minor structural refactoring of page objects to improve readability and scalability as the test suite grows.
+

@@ -21,14 +21,12 @@ security and negative scenarios.
 - **Admin**
 - **Operator**
 
-Detailed scope, test cases, and documented issues are available under `/docs`.
-
 ---
 
 ## Test Coverage
 
 Test coverage is documented through a selected set of representative test cases,
-defined under `docs/test-cases/` and documented issues are available under `/docs`. 
+defined under `docs/test-cases/` and documented issues are available under `/bugs`. 
 
 - `SIGN_IN.md` — authentication, validation, and session scenarios  
 - `OPERATOR_AUTH_RBAC.md` — RBAC enforcement and authorization boundaries  
