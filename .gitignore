@@ -1,0 +1,28 @@
+# Playwright
+node_modules/
+/test-results/
+/trace.zip
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+storageState*.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Archived / deprecated code
+archive/
+
+# IDE and editor files
+.DS_Store
+.vscode/
+.idea/
