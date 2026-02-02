@@ -43,12 +43,11 @@ The structure is designed to allow straightforward extension as coverage expands
 
 The application is expected to be available locally during test execution.
 
-- The application serves the UI at:  
-  `http://localhost:5480`
+- The application serves the UI at:  `http://localhost:5480`
 
 - Port `5481` is exposed in the provided release configuration; however:
-  - HTTP requests via browser or `curl` are reset
-  - The port is not stable or usable for test execution
+- HTTP requests via browser or `curl` are reset
+- The port is not stable or usable for test execution
 
 - UI functionality operates correctly via port `5480`,
   indicating backend availability through the same server/port.
@@ -61,5 +60,5 @@ The application is expected to be available locally during test execution.
 npm install
 npx playwright install
 npx playwright test
-
+```
 

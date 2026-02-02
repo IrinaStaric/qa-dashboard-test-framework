@@ -171,7 +171,6 @@ This document partially covers functional, negative, session, and security-focus
 
 ### TC-SIGNIN-012 — Trim behavior for username/email
 - **Type**: Functional
-- **Priority**: P2
 - **Steps**:
   1. Navigate to `/auth`.
   2. Enter valid username/email with leading/trailing spaces.
